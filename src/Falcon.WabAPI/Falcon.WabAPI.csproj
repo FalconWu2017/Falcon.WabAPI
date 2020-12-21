@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;netstandard2.0;</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+    <PackageProjectUrl>https://github.com/FalconWu2017/Falcon.StoredProcedureRunner</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/FalconWu2017/Falcon.StoredProcedureRunner</RepositoryUrl>
+    <Description>EF Core 存储过程执行组件，可以按照ORM方式执行存储过程</Description>
+    <Authors>Falcon</Authors>
+  </PropertyGroup>
+  
+</Project>
